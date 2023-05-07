@@ -3,7 +3,7 @@ import json
 from shapely.geometry import Point
 from shapely.geometry.polygon import Polygon
 #1
-gmaps = googlemaps.Client(key='AIzaSyBzf9fCCpMDgOkEU2x-YVsyMx_wzRI2Gag')
+gmaps = googlemaps.Client(key='')
 address = '1300 SE Stark Street, Portland, OR 97214'
 def calculate(address1):
     geocode_result = gmaps.geocode(address1)
